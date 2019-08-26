@@ -1,8 +1,15 @@
-<div id = "insertHere"> </div>
+<html>
+  <head>
+    <link rel = "stylesheet" href = "project.css">
+    <script src = "project.js"></script>
+  </head>
+  <body>
+    <div id = "insertHere"> </div>
 
-<center><button onclick = "document.getElementById('insertHere').innerHTML = ''; numTimes = 100; for (var x = 0; x < numTimes; x++) {Generate();}">male name list</button> 
-  <button onclick = "document.getElementById('insertHere').innerHTML = ''; numTimes = 100; for (var x = 0; x < numTimes; x++) {femaleGenerate();}">female name list</button> 
-  <button onclick = "document.getElementById('insertHere').innerHTML = ''; numTimes = 100; for (var x = 0; x < numTimes; x++) {bothGenerate();}">male and female list</button>
-</center>
+    <center><button onclick = "document.getElementById('insertHere').innerHTML = ''; numTimes = 100; for (var x = 0; x < numTimes; x++) {Generate();}">male name list</button> 
+      <button onclick = "document.getElementById('insertHere').innerHTML = ''; numTimes = 100; for (var x = 0; x < numTimes; x++) {femaleGenerate();}">female name list</button> 
+      <button onclick = "document.getElementById('insertHere').innerHTML = ''; numTimes = 100; for (var x = 0; x < numTimes; x++) {bothGenerate();}">male and female list</button>
+    </center>
 
-<button id = "themes" onclick= "changeTheme();">Dark theme</button> 
+    <button id = "themes" onclick= "changeTheme();">Dark theme</button>     
+  </body>
