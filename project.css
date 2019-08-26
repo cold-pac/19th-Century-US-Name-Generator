@@ -1,0 +1,36 @@
+html, body {
+   
+}#insertHere {
+  text-align: center;
+  margin: 30px;
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+} button {
+  background-color: steelblue;
+  cursor: pointer; 
+  color: white; 
+} span {
+  padding: 20px;
+  text-align: center; 
+  cursor: zoom-in; 
+} span:nth-child(n) {
+  /* background-color:  #fff69e;  */
+// background-color: #daf9c7; 
+} span:nth-child(2n) {
+  //background-color: #cefbff;
+} /* span:nth-child(3n) {
+  background-color: #daf9c7;
+} */ span:hover {  
+  border-left: 3px solid grey;
+}  span:active {
+  font-size: 70px;
+  cursor: unset;
+} #themes {
+    background-color: yellow; 
+    color: grey;
+    float: right;  
+} @media (orientation: portrait) {
+  #insertHere {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
